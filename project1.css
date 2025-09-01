@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300..700&display=swap');
+body {
+    text-align: center;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    font-family: Marhey;
+}
+h1 {
+    color: rgb(0, 98, 255);
+    margin-top: 40px;
+    /* border: 3px solid; */
+    /* width: fit-content; */
+    /* margin: 40px auto; */
+}
+#incomplete, #completed {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 5px 2px rgb(195, 195, 195);
+    width: 50%;
+}
+main {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    width: 80%;
+
+}
+
+button {
+    background-color: rgb(0, 110, 255);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+button:active {
+    background-color: rgb(0, 53, 121);
+    scale: 0.9;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+h2 {
+    background-color: rgb(0, 174, 255);
+    color: white;
+    border-radius: 10px;
+}
